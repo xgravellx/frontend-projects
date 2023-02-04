@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+
+/* Navbar start*/
+
+#header {
+    background-color: #2C3E50;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    
+}
+
+#navbar {
+    display: grid;
+    padding: 2rem 0.75rem;
+    grid-template-columns: 1fr 2fr;
+    background-color: #2C3E50;
+    margin: 0 auto;
+    width: 80%;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+}
+
+.navbar-start {
+    flex: 1;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: white;
+}
+
+.navbar-brand > a {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar-end {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    width: 100%;
+    flex: 2;
+}
+
+.navbar-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.navbar-item {
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-left: 2.5rem;
+}
+
+.navbar-item:hover {
+    color: #1ABC9C;
+    cursor: pointer;
+}
+
+
+/* Navbar End */
+
+
+/* Slider Start */
+
+#slider {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding-top: 7rem; 
+    padding-bottom: 14rem;
+    top: 0;
+    overflow: hidden;
+    background-color: #1ABC9C;
+    color: white;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.slider-avatar > img {
+    width: 15rem;
+    margin-bottom: 2rem;
+}
+
+.slider-name > h1 {
+    font-size: 4rem;
+}
+
+.slider-favicon {
+    margin: 1rem;
+}
+
+.slider-favicon-line {
+    width: 100%;
+    max-width: 6rem;
+    height: .25rem;
+    background-color: white;
+}
+
+.slider-favicon-star {
+    width: 2rem;
+    color: white;
+}
+
+@media screen {
+    
+}
+
+/* Slider End */
